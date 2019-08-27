@@ -1,0 +1,13 @@
+<setup>
+        <block title="VPN Generator Configuration">
+		<text>Documentation: XXX</text>
+        </block>
+
+	<block title="Proxy Settings" endpoint="configs/conf-vpngen" entity="proxies">
+        	<text>Leave blank if not required.</text>
+		<input field="https">
+			<label>HTTPS:</label>
+			<type>text</type>
+		</input>
+	</block>
+</setup>
